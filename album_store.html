@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <title>Go Music</title>
-  </head>
-  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/album-store-style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <title>Go Music</title>
+</head>
 
 <body>
 
   <header>
     <div class="container-menu">
       <div class="main-logo">
-        <label class="logo upper-text">GoMusic</label> <!--No logo-->
+        <label class="logo upper-text"><a href="index.html">GoMusic</a></label>
+        <!--No logo-->
       </div>
       <nav class="header-nav">
         <input type="checkbox" id="check">
@@ -25,7 +26,7 @@
         </label>
         <ul class="main-menu">
           <li class="menu-item upper-text"><a class="active" href="#">
-            Lançamentos</a></li>
+              Lançamentos</a></li>
           <li class="menu-item upper-text"><a href="#">Ofertas</a></li>
           <li class="menu-item upper-text"><a href="#">Acessórios</a></li>
           <li class="menu-item upper-text"><a href="#">Minha Conta</a></li>
@@ -36,43 +37,91 @@
   </header>
 
   <section>
+    <div class="container-explorer">
+      <label class="explorer">página inicial / camel / mirage </label>
+    </div>
     <div class="album-container">
       <div class="album-content">
-        <div class="album-img-large">
-          <img>imagem
+        <div class="album-img-store">
+          <img src="images/mirage-camel.jpg" 
+               alt="Album da banda de rock progressivo Camel"
+               class="size-album-img"
+               />
         </div>
         <div class="album-details">
           <div class="album-info">
-            <h4>Mirage</h4>
-            <p>Camel - 1974</p>
-            <p>Rock progressivo</p>
+            <h4 class="album-info-name upper-text">Mirage</h4>
+            <p class="album-info-artist artist-name"><strong>Camel</strong> - 1974</p>
+            <p class="album-info-style font-bold">Rock progressivo</p>
           </div>
           <div class="album-button">
-            <button class="play-music">Ouvir</button>
-            <button class="buy-music">R$ 12,90</button>
+            <button class="play-music bw-button upper-text">Ouvir</button>
+            <button class="buy-music yellow-button">R$12,90</button>
           </div>
           <div class="wish-list">
             <a href="#">+ Lista de desejos</a>
           </div>
           <div class="about-album">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-              in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum.</p>
+            <p class="text-about"><strong>Mirage</strong> é o segundo álbum de estúdio da banda inglesa de rock
+              progressivo Camel, lançado em 1974. É um dos álbuns mais famosos
+              da banda, e contém uma de suas músicas mais conhecidas: "Lady
+              Fantasy". Também é marcado pelo som da flauta do líder da banda
+              Andrew Latimer, em "Supertwister".</p>
           </div>
         </div>
+      </div>
+
+      <div class="track-list">
+        <ul class="content-track-list">
+          <li class="music separator">
+            <div class="music-list font-bold upper-text">
+              1. Freefall - 5:52
+            </div>
+            <button class="bw-button upper-text">
+              Ouvir
+            </button>
+          </li>
+          <li class="music separator">
+            <div class="music-list font-bold upper-text">
+              2. Supertwister - 3:18
+            </div>
+            <button class="bw-button upper-text">
+              Ouvir
+            </button>
+          </li>
+          <li class="music separator">
+            <div class="music-list font-bold upper-text">
+              3. Nimrodel (Medley) - 9:16
+            </div>
+            <button class="bw-button upper-text">
+              Ouvir
+            </button>
+          </li>
+          <li class="music separator">
+            <div class="music-list font-bold upper-text">
+              4. Earthrise - 6:40
+            </div>
+            <button class="bw-button upper-text">
+              Ouvir
+            </button>
+          </li>
+          <li class="music separator">
+            <div class="music-list font-bold upper-text">
+              5. Lady Fantasy - 12:43
+            </div>
+            <button class="bw-button upper-text">
+              Ouvir
+            </button>
+          </li>
+        </ul>
       </div>
     </div>
   </section>
 
-  
   <section class="containers-list">
     <!--List1-->
     <div class="container-list">
-      <h3 class="list-name upper-text">Lançamentos</h3>
+      <h3 class="list-name upper-text">OUTROS TÍTULOS</h3>
       <div class="albuns">
 
         <div class="album">
@@ -96,7 +145,7 @@
           <h4 class="album-name">Rinding with the king</h4>
           <p class="artist-name">Eric Clapton</p>
         </div>
-        
+
         <div class="album">
           <div class="photo-price">
             <img src="images/blues-deluxe-joe.jpg" class="album-img">
@@ -141,30 +190,6 @@
           <h4 class="album-name">Alive!</h4>
           <p class="artist-name">Kiss</p>
         </div>
-      </div>
-      <div class="albuns-button">
-        <button class="yellow-button upper-text">Todos os lançamentos</button>
-      </div>
-    </div>
-    <!--List2-->
-    <div class="container-list">
-      <h3 class="list-name upper-text">Mais Vendidos</h3>
-      <div class="albuns">
-
-        <div class="album">
-          <div class="photo-price">
-            <img src="images/cabeca-dinossauro-titas.jpg" class="album-img">
-            <div class="price">
-              <span>R$ 12,90</span>
-            </div>
-          </div>
-          <h4 class="album-name">Cabeca Dinossauro</h4>
-          <p class="artist-name">Titãs</p>
-        </div>
-      </div>
-
-      <div class="albuns-button">
-        <button class="yellow-button upper-text">Todos os títulos</button>
       </div>
     </div>
   </section>

@@ -1,0 +1,68 @@
+/* Início CSS da Section Advertising */
+
+.ad-album { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  left: 50%;
+  height: 100px;
+  position: relative;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+}
+
+.container-ad { 
+  position: relative;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.ad-img {
+  background-image: 
+  url('https://i2.wp.com/cultmagazine.com.br/wp-content/uploads/2016/07/zz-top.jpg?resize=1024%2C681&ssl=1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: scale-down;
+  width:100%;
+  height: 70vh;
+}
+
+.ad-album-title {
+  text-align: center;
+  padding: 3px;
+  color: #000;
+  background-color: #FFCC00;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.ad-album-artist {
+  display: flex;
+  color: #FFCC00;
+  letter-spacing: 4px;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.ad-album-album {
+  margin-top: 25px;
+  color: #fff;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.button-ad {
+  font-size: 16px;
+  width: 80%;
+  border-radius: 4px;
+}
+
+.button-ad a:hover {
+  font-size: 18px;
+  color: #fff;
+}
+

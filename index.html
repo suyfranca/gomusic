@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index-style.css">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <title>Go Music</title>
 </head>
@@ -15,7 +16,8 @@
   <header>
     <div class="container-menu">
       <div class="main-logo">
-        <label class="logo upper-text">GoMusic</label> <!--No logo-->
+        <label class="logo upper-text"><a href="index.html">GoMusic</a></label>
+        <!--No logo-->
       </div>
       <nav class="header-nav">
         <input type="checkbox" id="check">
@@ -24,7 +26,7 @@
         </label>
         <ul class="main-menu">
           <li class="menu-item upper-text"><a class="active" href="#">
-            Lançamentos</a></li>
+              Lançamentos</a></li>
           <li class="menu-item upper-text"><a href="#">Ofertas</a></li>
           <li class="menu-item upper-text"><a href="#">Acessórios</a></li>
           <li class="menu-item upper-text"><a href="#">Minha Conta</a></li>
@@ -62,7 +64,7 @@
             </div>
           </div>
           <h4 class="album-name">Live 2012</h4>
-          <p class="artist-name">AC/DC</p>
+          <p class="artist-name album-name">AC/DC</p>
         </div>
 
         <div class="album">
@@ -73,9 +75,9 @@
             </div>
           </div>
           <h4 class="album-name">Rinding with the king</h4>
-          <p class="artist-name">Eric Clapton</p>
+          <p class="artist-name album-name">Eric Clapton</p>
         </div>
-        
+
         <div class="album">
           <div class="photo-price">
             <img src="images/blues-deluxe-joe.jpg" class="album-img">
@@ -84,21 +86,20 @@
             </div>
           </div>
           <h4 class="album-name">Blues Deluxe</h4>
-          <p class="artist-name">Joe Bonamassa</p>
+          <p class="artist-name album-name">Joe Bonamassa</p>
         </div>
-
-
         <div class="album">
-          <div class="photo-price">
-            <img src="images/mirage-camel.jpg" class="album-img">
-            <div class="price">
-              <span>R$ 12,90</span>
+          <a href="album_store.html">
+            <div class="photo-price">
+              <img src="images/mirage-camel.jpg" class="album-img">
+              <div class="price">
+                <span>R$ 12,90</span>
+              </div>
             </div>
-          </div>
-          <h4 class="album-name">Mirage</h4>
-          <p class="artist-name">Camel</p>
+            <h4 class="album-name">Mirage</h4>
+            <p class="artist-name album-name">Camel</p>
+          </a>
         </div>
-
         <div class="album">
           <div class="photo-price">
             <img src="images/40-golden-greats-etta.jpg" class="album-img">
@@ -107,9 +108,8 @@
             </div>
           </div>
           <h4 class="album-name">40 Golden Greats</h4>
-          <p class="artist-name">Etta James</p>
+          <p class="artist-name album-name">Etta James</p>
         </div>
-
         <div class="album">
           <div class="photo-price">
             <img src="images/alive-kiss.jpg" class="album-img">
@@ -118,13 +118,14 @@
             </div>
           </div>
           <h4 class="album-name">Alive!</h4>
-          <p class="artist-name">Kiss</p>
+          <p class="artist-name album-name">Kiss</p>
         </div>
       </div>
       <div class="albuns-button">
         <button class="yellow-button upper-text">Todos os lançamentos</button>
       </div>
     </div>
+
     <!--List2-->
     <div class="container-list">
       <h3 class="list-name upper-text">Mais Vendidos</h3>
@@ -137,8 +138,58 @@
               <span>R$ 12,90</span>
             </div>
           </div>
-          <h4 class="album-name">Cabeca Dinossauro</h4>
-          <p class="artist-name">Titãs</p>
+          <h4 class="album-name">Cabeça Dinossauro</h4>
+          <p class="artist-name album-name">Titãs</p>
+        </div>
+        <div class="album">
+          <div class="photo-price">
+            <img src="images/trace-trace.jpg" class="album-img">
+            <div class="price">
+              <span>R$ 12,90</span>
+            </div>
+          </div>
+          <h4 class="album-name">Trace</h4>
+          <p class="artist-name album-name">Trace</p>
+        </div>
+        <div class="album">
+          <div class="photo-price">
+            <img src="images/are-you-experienced-jimi-hendrix.jpg" class="album-img">
+            <div class="price">
+              <span>R$ 12,90</span>
+            </div>
+          </div>
+          <h4 class="album-name">Are you experienced</h4>
+          <p class="artist-name album-name">Jimmi Hendrix Experience</p>
+        </div>
+        <div class="album">
+          <div class="photo-price">
+            <img src="images/vapor-trails-remix-rush.jpg" class="album-img">
+            <div class="price">
+              <span>R$ 12,90</span>
+            </div>
+          </div>
+          <h4 class="album-name">Vapor Trails (REMIX)</h4>
+          <p class="artist-name album-name">Rush</p>
+        </div>
+        <div class="album">
+          <div class="photo-price">
+            <img src="images/40-golden-greats-etta.jpg" class="album-img">
+            <div class="price">
+              <span>R$ 12,90</span>
+            </div>
+          </div>
+          <h4 class="album-name">40 Golden Greats</h4>
+          <p class="artist-name album-name">Etta James</p>
+        </div>
+        <div class="album">
+          <div class="photo-price">
+            <img src="images/acdc-live2012.jpg" class="album-img">
+            <div class="price">
+              <span>R$ 12,90</span>
+            </div>
+          </div>
+          <h4 class="album-name">Live 2012</h4>
+          <p class="artist-name album-name">AC/DC</p>
         </div>
       </div>
 
@@ -166,6 +217,7 @@
     </ul>
   </footer>
 
+  <script src="js/script.js"></script>
 </body>
 
 </html>
