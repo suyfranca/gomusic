@@ -1,3 +1,3 @@
 # FrontEnd GoMusic responsivo
 
-<a href="www.suyfranca.github.io/gomusic">Página GoMusic</a>
+<a href="https://www.suyfranca.github.io/gomusic">Página GoMusic</a>
